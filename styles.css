@@ -1,0 +1,40 @@
+.menu-pipe{
+  margin:0;
+  padding:0;
+}
+.menu-pipe li{
+  display:inline-block;
+}
+.menu-pipe li + li:before{
+  content:'|';
+  padding:0 .3em 0 .1em;
+  color:#999;
+}
+.verdemenu{
+  background-color:#026e00;/*menu caixa verde*/
+}
+.verdemenu:before{
+  content:none !important
+}
+.verdemenu a{
+  padding:0 16px;
+}
+.blocoverde{
+  display:inline-block;
+  margin:0 8px;
+}
+.caixaverde{
+  display:block;
+  margin:10px 4px;
+  padding:.2em .6em;
+  background-color:#026e00;
+  color:#fff;/*letra caixa verde*/
+  border-radius:2px;
+  font-size:30px;
+  font-weight:400;
+  -webkit-transition:.2s background-color ease-in-out;
+ }
+.caixaverde small{
+  display:block;
+  font-size:1rem
+}
